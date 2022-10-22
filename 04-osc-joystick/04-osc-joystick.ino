@@ -35,7 +35,7 @@ void setup() {
   pinMode(Y_PIN, INPUT);
   pinMode(BUTTON_PIN, INPUT);
 
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   // Connect to WiFi network
   Serial.println();

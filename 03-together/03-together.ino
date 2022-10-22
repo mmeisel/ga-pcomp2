@@ -23,7 +23,7 @@ void setup() {
   pinMode(JOYSTICK_Y_PIN, INPUT);
   pinMode(JOYSTICK_BUTTON_PIN, INPUT);
 
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   // Set up the LEDs and tell the controller about them
   FastLED.addLeds<NEOPIXEL, LED_DATA_PIN>(leds, NUM_LEDS);

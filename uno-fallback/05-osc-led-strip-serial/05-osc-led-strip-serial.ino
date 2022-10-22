@@ -17,7 +17,7 @@ SLIPEncodedSerial SLIPSerial(Serial);
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW);
-  SLIPSerial.begin(57600);
+  SLIPSerial.begin(9600);
 
   // Set up the LEDs and tell the controller about them
   FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);

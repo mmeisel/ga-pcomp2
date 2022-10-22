@@ -11,7 +11,7 @@ const OUTBOUND_PORT = 9000;
 // You shouldn't need to change these
 const INBOUND_ADDRESS = '0.0.0.0';
 const INBOUND_PORT = 8888;
-const SERIAL_BITRATE = 57600;
+const SERIAL_BITRATE = 9600;
 
 const udpPort = new osc.UDPPort({
   localAddress: INBOUND_ADDRESS,

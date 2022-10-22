@@ -42,7 +42,7 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW);
 
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   // Set up the LEDs and tell the controller about them
   FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);

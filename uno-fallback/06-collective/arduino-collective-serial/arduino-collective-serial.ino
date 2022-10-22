@@ -33,7 +33,7 @@ void setup() {
   pinMode(Y_PIN, INPUT);
   pinMode(BUTTON_PIN, INPUT);
 
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   // Pick a hue
   myHue = random(256);

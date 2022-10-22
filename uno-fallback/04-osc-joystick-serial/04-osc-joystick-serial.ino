@@ -20,7 +20,7 @@ float lastY = -1.0;
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW);
-  SLIPSerial.begin(57600);
+  SLIPSerial.begin(9600);
 }
 
 void loop() {

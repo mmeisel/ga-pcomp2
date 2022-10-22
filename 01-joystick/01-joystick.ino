@@ -6,7 +6,7 @@ void setup() {
   pinMode(X_PIN, INPUT);
   pinMode(Y_PIN, INPUT);
   pinMode(BUTTON_PIN, INPUT);
-  Serial.begin(57600);
+  Serial.begin(9600);
 }
 
 void loop() {
